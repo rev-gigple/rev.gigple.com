@@ -15,7 +15,7 @@ jobs:
 
     - name: Set up SSH Key
       run: |
-        echo "${{ secrets.DEPLOY_KEY }}" > ~/id_rsa_2
+        echo "${{ secrets.gigple }}" > ~/id_rsa_2
         chmod 600 ~ /id_rsa_2
         ssh-keyscan -H 143.198.84.212 >> ~/.ssh/known_hosts
       env:
