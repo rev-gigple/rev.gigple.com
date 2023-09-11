@@ -176,7 +176,7 @@
         @if (request()->is('/'))
 
             {{-- Hero section content --}}
-            <div class="home-hero-section bg-red-950">
+            <div class="home-hero-section bg-red-900">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
                     <div class="w-full md:max-w-lg">
                         
