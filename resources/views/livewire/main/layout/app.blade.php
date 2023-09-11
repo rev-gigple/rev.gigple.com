@@ -181,7 +181,7 @@
                     <div class="w-full md:max-w-lg">
                         
                         {{-- Hero section title --}}
-                        <h1 class="text-center sm:ltr:text-left sm:rtl:text-right mt-4 text-xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-3xl lg:mt-6 xl:text-4xl" style="color:green !important;">
+                        <h1 class="text-center sm:ltr:text-left sm:rtl:text-right mt-4 text-xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-3xl lg:mt-6 xl:text-4xl" style="color:blueviolet !important;">
                             {{ __('messages.t_find_best') }} {{ __('messages.t_freelance') }}<br> {{ __('messages.t_services_for_ur_business') }}
                         </h1>
                         <div class="mt-10 sm:mt-12">
