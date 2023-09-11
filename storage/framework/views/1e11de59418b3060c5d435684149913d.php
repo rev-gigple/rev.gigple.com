@@ -207,15 +207,15 @@
         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.includes.header')->html();
-} elseif ($_instance->childHasBeenRendered('bkiBF4Z')) {
-    $componentId = $_instance->getRenderedChildComponentId('bkiBF4Z');
-    $componentTag = $_instance->getRenderedChildComponentTagName('bkiBF4Z');
+} elseif ($_instance->childHasBeenRendered('6uyA1hz')) {
+    $componentId = $_instance->getRenderedChildComponentId('6uyA1hz');
+    $componentTag = $_instance->getRenderedChildComponentTagName('6uyA1hz');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('bkiBF4Z');
+    $_instance->preserveRenderedChild('6uyA1hz');
 } else {
     $response = \Livewire\Livewire::mount('main.includes.header');
     $html = $response->html();
-    $_instance->logRenderedChild('bkiBF4Z', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('6uyA1hz', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -224,7 +224,7 @@ echo $html;
         <?php if(request()->is('/')): ?>
 
             
-            <div class="home-hero-section">
+            <div class="home-hero-section bg-red-950">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
                     <div class="w-full md:max-w-lg">
                         
@@ -290,15 +290,15 @@ echo $html;
         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.includes.footer')->html();
-} elseif ($_instance->childHasBeenRendered('UKkX4HF')) {
-    $componentId = $_instance->getRenderedChildComponentId('UKkX4HF');
-    $componentTag = $_instance->getRenderedChildComponentTagName('UKkX4HF');
+} elseif ($_instance->childHasBeenRendered('P2LjlF1')) {
+    $componentId = $_instance->getRenderedChildComponentId('P2LjlF1');
+    $componentTag = $_instance->getRenderedChildComponentTagName('P2LjlF1');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('UKkX4HF');
+    $_instance->preserveRenderedChild('P2LjlF1');
 } else {
     $response = \Livewire\Livewire::mount('main.includes.footer');
     $html = $response->html();
-    $_instance->logRenderedChild('UKkX4HF', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('P2LjlF1', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -408,4 +408,5 @@ echo $html;
 
     </body>
 
-</html><?php /**PATH /www/wwwroot/rev.gigple.com/resources/views/livewire/main/layout/app.blade.php ENDPATH**/ ?>
+</html>
+<?php /**PATH /www/wwwroot/rev.gigple.com/resources/views/livewire/main/layout/app.blade.php ENDPATH**/ ?>
