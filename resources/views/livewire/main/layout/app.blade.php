@@ -7,6 +7,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
+        <script src="https://cdn.tailwindcss.com"></script>
+
         {{-- Generate seo tags --}}
         {!! SEO::generate() !!}
         {!! JsonLd::generate() !!}
@@ -176,11 +178,13 @@
         @if (request()->is('/'))
 
             {{-- Hero section content --}}
-            <div class="home-hero-section bg-red-900">
+            <div class="home-hero-section bg-red-700">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
                     <div class="w-full md:max-w-lg">
                         
                         {{-- Hero section title --}}
+
+                        <h1 class="bg-green-800">TEST</h1>
                         <h1 class="text-center sm:ltr:text-left sm:rtl:text-right mt-4 text-xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-3xl lg:mt-6 xl:text-4xl" style="color:blueviolet !important;">
                             {{ __('messages.t_find_best') }} {{ __('messages.t_freelance') }}<br> {{ __('messages.t_services_for_ur_business') }}
                         </h1>
