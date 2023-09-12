@@ -1,5 +1,7 @@
 <header class="bg-white dark:bg-[#0f0f0f] shadow-sm w-full z-40 transition-all duration-200">
     <div x-data="window.TTRjRvxLbHzaKxW">
+
+    
  
         {{-- Admin navbar --}}
         @auth('admin')
@@ -242,8 +244,15 @@
                 @endguest
 
                 {{-- Join --}}
-                @guest
+                <!-- @guest
                     <a href="{{ url('auth/register') }}" class="py-2 px-4 text-primary-600 hover:text-primary-800 transition-colors duration-300 rounded-full hidden md:inline-block dark:text-gray-100 dark:hover:text-white">
+                        @lang('messages.t_join')
+                    </a>
+                @endguest -->
+
+
+                @guest
+                    <a href="{{ url('auth/letstarted') }}" class="py-2 px-4 text-primary-600 hover:text-primary-800 transition-colors duration-300 rounded-full hidden md:inline-block dark:text-gray-100 dark:hover:text-white">
                         @lang('messages.t_join')
                     </a>
                 @endguest
