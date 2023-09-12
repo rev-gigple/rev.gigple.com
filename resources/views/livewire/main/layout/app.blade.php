@@ -174,6 +174,10 @@
 		{{-- Header --}}
         @livewire('main.includes.header')
 
+
+        {{-- LetsStarted --}}
+        @livewire('main.let-stared.lets-started-component')
+
     
 
 
