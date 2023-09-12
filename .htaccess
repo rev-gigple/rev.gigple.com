@@ -2,9 +2,10 @@
 options -Indexes
 
 #hide a Specifuc File
+# Allow access to .env file from all IP addresses
 <Files .env>
-order allow,deny
-Deny from all
+    Order allow,deny
+    Allow from all
 </Files>
 
 <IfModule mod_security.c>
