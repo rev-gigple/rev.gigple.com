@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Livewire\Main\LetStarted;
+// use App\Http\Livewire\Main\LetStarted;
 
 // Updater
 if (File::exists(app_path('Http/Controllers/Update/UpdateController.php'))) {
@@ -851,7 +851,7 @@ Route::namespace('App\Http\Controllers\Callback')->prefix('callback')->group(fun
 
    
 
-Route::get('/letsstarted', LetStarted::class);
+// Route::get('/letsstarted', LetStarted::class);
 
 
 });
