@@ -9,7 +9,7 @@ class LetsStartedComponent extends Component
     public function render()
     {
         // return view('livewire.main.let-started.lets-started-component')->extends('livewire.main.layout.app');
-        // return view('livewire.main.let-started.lets-started-component');
+        return view('livewire.main.let-started.lets-started-component');
 
     }
 }
