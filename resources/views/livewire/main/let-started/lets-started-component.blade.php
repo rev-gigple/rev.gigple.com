@@ -4,8 +4,8 @@
 <style>
 
 .let_started_area{
-	padding-bottom: 19.6rem;
-	padding-top: 13.5rem;
+	/* padding-bottom: 19.6rem;
+	padding-top: 13.5rem; */
 	background: -o-linear-gradient(330deg, rgba(249,240,130,1) 0%, rgba(239,237,134,1) 16%, rgba(214,232,147,1) 36%, rgba(172,222,168,1) 60%, rgba(114,209,197,1) 82%, rgba(42,193,233,1) 100%);
 	background: linear-gradient(120deg, rgba(249,240,130,1) 0%, rgba(239,237,134,1) 16%, rgba(214,232,147,1) 36%, rgba(172,222,168,1) 60%, rgba(114,209,197,1) 82%, rgba(42,193,233,1) 100%);
 }
