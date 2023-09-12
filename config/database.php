@@ -66,7 +66,7 @@ return [
 
 
                'mysql' => [
-            'driver'         => env('DB_CONNECTIONL'),
+            'driver'         => 'mysql',
             'url'            => env('DATABASE_URL'),
             'host'           => env('DB_HOST'), 
             'port'           => env('DB_PORT'),
