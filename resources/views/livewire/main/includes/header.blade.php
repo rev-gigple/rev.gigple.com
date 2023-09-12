@@ -244,18 +244,18 @@
                 @endguest
 
                 {{-- Join --}}
-                <!-- @guest
+                @guest
                     <a href="{{ url('auth/register') }}" class="py-2 px-4 text-primary-600 hover:text-primary-800 transition-colors duration-300 rounded-full hidden md:inline-block dark:text-gray-100 dark:hover:text-white">
                         @lang('messages.t_join')
                     </a>
-                @endguest -->
+                @endguest
 
 
-                @guest
+                <!-- @guest
                     <a href="{{ url('letsstarted') }}" class="py-2 px-4 text-primary-600 hover:text-primary-800 transition-colors duration-300 rounded-full hidden md:inline-block dark:text-gray-100 dark:hover:text-white">
                         @lang('messages.t_join')
                     </a>
-                @endguest
+                @endguest -->
 
                 {{-- Mobile search --}}
                 @livewire('main.partials.search')
