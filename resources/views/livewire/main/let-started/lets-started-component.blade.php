@@ -2,7 +2,7 @@
 
 <div>
     <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-        {{ __('Let\'s Get Started') }}
+        <!-- {{ __('Let\'s Get Started') }} -->
     </h2>
     <div class="p-6">
         <!-- Your content here -->
