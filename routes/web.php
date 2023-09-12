@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 // use App\Http\Livewire\Main\LetStarted;
 
+// use App\Http\Livewire\Main\LetStartedComponent;
+
 // Updater
 if (File::exists(app_path('Http/Controllers/Update/UpdateController.php'))) {
 
@@ -36,6 +38,8 @@ Route::prefix('tasks')->group(function() {
 
 });
 
+
+
 // Main (Livewire)
 Route::namespace('App\Http\Livewire\Main')->group(function() {
 
@@ -46,6 +50,16 @@ Route::namespace('App\Http\Livewire\Main')->group(function() {
         Route::get('/', HomeComponent::class);
     
     });
+
+//lets stared
+    Route::namespace('LetStarted')->group(function() {
+
+        Route::get('lets-started', LetsStartedComponent::class);
+
+    });
+
+    
+
 
     // Explore
     Route::namespace('Explore')->prefix('explore')->group(function() {
@@ -660,6 +674,22 @@ Route::namespace('App\Http\Livewire\Main')->group(function() {
 
 });
 
+
+
+
+    // lets-started
+    // Route::namespace('App\Http\Livewire\Main')->group(function() {
+
+    //     // Home
+    //     Route::namespace('LetStarted')->group(function() {
+        
+    //         // Home
+    //         Route::get('lets-started', LetsStartedComponent::class);
+        
+    //     });
+
+        
+
 // Main (Controllers)
 Route::namespace('App\Http\Controllers\Main')->group(function() {
 
@@ -855,3 +885,17 @@ Route::namespace('App\Http\Controllers\Callback')->prefix('callback')->group(fun
 
 
 });
+
+
+
+// Route::namespace('App\Http\Livewire\Main')->group(function() {
+
+//     Route::namespace('app/Http/Livewire/Main/LetStarted')->group(function() {
+    
+//         // Home
+//         Route::get('/', LetsStartedComponent::class);
+    
+//     }) 
+
+// });
+

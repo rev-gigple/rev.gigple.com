@@ -225,7 +225,7 @@
   'main.home.home-component' => 'App\\Http\\Livewire\\Main\\Home\\HomeComponent',
   'main.includes.footer' => 'App\\Http\\Livewire\\Main\\Includes\\Footer',
   'main.includes.header' => 'App\\Http\\Livewire\\Main\\Includes\\Header',
-  'main.let-started' => 'App\\Http\\Livewire\\Main\\LetStarted',
+  'main.let-started.lets-started-component' => 'App\\Http\\Livewire\\Main\\LetStarted\\LetsStartedComponent',
   'main.messages.conversation-component' => 'App\\Http\\Livewire\\Main\\Messages\\ConversationComponent',
   'main.messages.messages-component' => 'App\\Http\\Livewire\\Main\\Messages\\MessagesComponent',
   'main.messages.new-component' => 'App\\Http\\Livewire\\Main\\Messages\\NewComponent',

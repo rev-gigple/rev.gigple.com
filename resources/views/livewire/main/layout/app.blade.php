@@ -174,6 +174,11 @@
 		{{-- Header --}}
         @livewire('main.includes.header')
 
+       
+   
+
+        
+
         {{-- Hero section --}}
         @if (request()->is('/'))
 
