@@ -1,5 +1,7 @@
 <header class="bg-white dark:bg-[#0f0f0f] shadow-sm w-full z-40 transition-all duration-200">
     <div x-data="window.TTRjRvxLbHzaKxW">
+
+    
  
         
         <?php if(auth()->guard('admin')->check()): ?>
@@ -257,8 +259,15 @@ echo $html;
                 <?php endif; ?>
 
                 
-                <?php if(auth()->guard()->guest()): ?>
+                <!-- <?php if(auth()->guard()->guest()): ?>
                     <a href="<?php echo e(url('auth/register'), false); ?>" class="py-2 px-4 text-primary-600 hover:text-primary-800 transition-colors duration-300 rounded-full hidden md:inline-block dark:text-gray-100 dark:hover:text-white">
+                        <?php echo app('translator')->get('messages.t_join'); ?>
+                    </a>
+                <?php endif; ?> -->
+
+
+                <?php if(auth()->guard()->guest()): ?>
+                    <a href="<?php echo e(url('lets-started'), false); ?>" class="py-2 px-4 text-primary-600 hover:text-primary-800 transition-colors duration-300 rounded-full hidden md:inline-block dark:text-gray-100 dark:hover:text-white">
                         <?php echo app('translator')->get('messages.t_join'); ?>
                     </a>
                 <?php endif; ?>

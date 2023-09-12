@@ -7,6 +7,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="csrf-token" content="<?php echo e(csrf_token(), false); ?>">
 
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
         
         <?php echo SEO::generate(); ?>
 
@@ -207,29 +209,43 @@
         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.includes.header')->html();
-} elseif ($_instance->childHasBeenRendered('6uyA1hz')) {
-    $componentId = $_instance->getRenderedChildComponentId('6uyA1hz');
-    $componentTag = $_instance->getRenderedChildComponentTagName('6uyA1hz');
+} elseif ($_instance->childHasBeenRendered('QJ1EuU7')) {
+    $componentId = $_instance->getRenderedChildComponentId('QJ1EuU7');
+    $componentTag = $_instance->getRenderedChildComponentTagName('QJ1EuU7');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('6uyA1hz');
+    $_instance->preserveRenderedChild('QJ1EuU7');
 } else {
     $response = \Livewire\Livewire::mount('main.includes.header');
     $html = $response->html();
-    $_instance->logRenderedChild('6uyA1hz', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('QJ1EuU7', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
+
+    
+
+
+
+
+
+
+       
+   
+
+        
 
         
         <?php if(request()->is('/')): ?>
 
             
-            <div class="home-hero-section bg-red-950">
+            <div class="home-hero-section bg-red-700">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
                     <div class="w-full md:max-w-lg">
                         
                         
-                        <h1 class="text-center sm:ltr:text-left sm:rtl:text-right mt-4 text-xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-3xl lg:mt-6 xl:text-4xl">
+
+                        <h1 class="bg-green-800">TEST</h1>
+                        <h1 class="text-center sm:ltr:text-left sm:rtl:text-right mt-4 text-xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-3xl lg:mt-6 xl:text-4xl" style="color:blueviolet !important;">
                             <?php echo e(__('messages.t_find_best'), false); ?> <?php echo e(__('messages.t_freelance'), false); ?><br> <?php echo e(__('messages.t_services_for_ur_business'), false); ?>
 
                         </h1>
@@ -290,15 +306,15 @@ echo $html;
         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.includes.footer')->html();
-} elseif ($_instance->childHasBeenRendered('P2LjlF1')) {
-    $componentId = $_instance->getRenderedChildComponentId('P2LjlF1');
-    $componentTag = $_instance->getRenderedChildComponentTagName('P2LjlF1');
+} elseif ($_instance->childHasBeenRendered('WKfnwgy')) {
+    $componentId = $_instance->getRenderedChildComponentId('WKfnwgy');
+    $componentTag = $_instance->getRenderedChildComponentTagName('WKfnwgy');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('P2LjlF1');
+    $_instance->preserveRenderedChild('WKfnwgy');
 } else {
     $response = \Livewire\Livewire::mount('main.includes.footer');
     $html = $response->html();
-    $_instance->logRenderedChild('P2LjlF1', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('WKfnwgy', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
