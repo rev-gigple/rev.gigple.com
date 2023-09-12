@@ -1,6 +1,9 @@
 <!-- resources/views/livewire/main/let-started/lets-started-component.blade.php -->
 
 
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
         <main>
             <div class="let_started_area">
                 <div class="container">
