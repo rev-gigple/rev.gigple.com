@@ -177,7 +177,7 @@
 
       
 
-        <livewire:LetsStartedComponent />
+        /* <livewire:LetsStartedComponent /> */
 
 
 
