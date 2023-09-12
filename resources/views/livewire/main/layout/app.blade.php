@@ -177,8 +177,6 @@
     
 
 
-{{-- lets-started-component --}}
-@livewire('lets-started-component')
 
 
 
