@@ -126,7 +126,14 @@
                                 <p class="mt_25 mb_25">Find great freelance and part-time <br> work with amazing companies.</p>
                                 <div class="new_button_area d-flex justify-content-end">
                                     <div class="lets-line"></div>
-                                    <a href="#" class="lets_button lets_button_two">HIRE</a>
+                                    <!-- <a href="#" class="lets_button lets_button_two">HIRE</a> -->
+
+
+                     @guest
+                    <a href="{{ url('auth/register') }}" class="py-2 px-4 text-primary-600 hover:text-primary-800 transition-colors duration-300 rounded-full hidden md:inline-block dark:text-gray-100 dark:hover:text-white">
+                        @lang('messages.t_join')
+                    </a>
+                @endguest
                                 </div>
 
                             </div>
