@@ -88,7 +88,7 @@ return new class extends Migration
             $table->string('provider_id', 60)->collation('utf8mb4_unicode_ci')->nullable();
             $table->unsignedBigInteger('country_id')->nullable();
             // $table->string('city', 60)->collation('utf8mb4_unicode_ci')->nullable();
-            $table->string('timezone', 60)->collation('utf8mb4_unicode_ci')->nullable();
+            // $table->string('timezone', 60)->collation('utf8mb4_unicode_ci')->nullable();
             $table->string('fullname', 60)->collation('utf8mb4_unicode_ci')->nullable();
             $table->string('headline', 100)->collation('utf8mb4_unicode_ci')->nullable();
             $table->text('description')->collation('utf8mb4_unicode_ci');
