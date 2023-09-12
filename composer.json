@@ -62,7 +62,7 @@
         "youcanpay/payment-sdk": "^0.1.22"
     },
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.8",
+        "barryvdh/laravel-debugbar": "^3.9",
         "barryvdh/laravel-ide-helper": "^2.13",
         "edwardhendrix/laravel-config-writer": "dev-master",
         "fakerphp/faker": "^1.21",
