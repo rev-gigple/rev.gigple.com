@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Livewire\Main\LetStarted;
+
 // Updater
 if (File::exists(app_path('Http/Controllers/Update/UpdateController.php'))) {
 
@@ -844,6 +846,12 @@ Route::namespace('App\Http\Controllers\Callback')->prefix('callback')->group(fun
 
     // Youcanpay
     Route::get('youcanpay', 'YoucanpayController@callback');
+
+
+
+   
+
+Route::get('/letsstarted', LetStarted::class);
 
 
 });
