@@ -2369,3 +2369,21 @@
 #75 /www/wwwroot/rev.gigple.com/index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle()
 #76 {main}
 "} 
+[2023-09-12 10:55:41] production.ERROR: Command "cache:" is ambiguous.
+Did you mean one of these?
+    cache:clear            Flush the application cache
+    cache:forget           Remove an item from the cache
+    cache:prune-stale-tags Prune stale cache tags from the cache (Redis only)
+    cache:table            Create a migration for the cache database table. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"cache:\" is ambiguous.
+Did you mean one of these?
+    cache:clear            Flush the application cache
+    cache:forget           Remove an item from the cache
+    cache:prune-stale-tags Prune stale cache tags from the cache (Redis only)
+    cache:table            Create a migration for the cache database table. at E:\\rev.gigple.com\\vendor\\symfony\\console\\Application.php:766)
+[stacktrace]
+#0 E:\\rev.gigple.com\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('cache:')
+#1 E:\\rev.gigple.com\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 E:\\rev.gigple.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\rev.gigple.com\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 

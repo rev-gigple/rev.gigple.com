@@ -7,6 +7,6 @@
     <div class="p-6">
         <!-- Your content here -->
 
-        <h1>Lets stared my file</h1>
+        <h1>Lets get Started new</h1>
     </div>
 </div>
