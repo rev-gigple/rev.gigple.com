@@ -175,8 +175,8 @@
         @livewire('main.includes.header')
 
 
-        {{-- LetsStartedComponent --}}
-        @livewire('main.let-stared.lets-started-component')
+        {{-- Header --}}
+        @livewire('main.lets-started.lets-started-component')
 
     
 
