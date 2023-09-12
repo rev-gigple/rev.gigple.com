@@ -252,7 +252,7 @@
 
 
                 @guest
-                    <a href="{{ url('auth/letstarted') }}" class="py-2 px-4 text-primary-600 hover:text-primary-800 transition-colors duration-300 rounded-full hidden md:inline-block dark:text-gray-100 dark:hover:text-white">
+                    <a href="{{ url('auth/let-started') }}" class="py-2 px-4 text-primary-600 hover:text-primary-800 transition-colors duration-300 rounded-full hidden md:inline-block dark:text-gray-100 dark:hover:text-white">
                         @lang('messages.t_join')
                     </a>
                 @endguest

@@ -175,6 +175,7 @@
   'main.account.sessions.sessions-component' => 'App\\Http\\Livewire\\Main\\Account\\Sessions\\SessionsComponent',
   'main.account.settings.settings-component' => 'App\\Http\\Livewire\\Main\\Account\\Settings\\SettingsComponent',
   'main.account.verification.verification-component' => 'App\\Http\\Livewire\\Main\\Account\\Verification\\VerificationComponent',
+  'main.auth.let-started' => 'App\\Http\\Livewire\\Main\\Auth\\LetStarted',
   'main.auth.login-component' => 'App\\Http\\Livewire\\Main\\Auth\\LoginComponent',
   'main.auth.logout-component' => 'App\\Http\\Livewire\\Main\\Auth\\LogoutComponent',
   'main.auth.password.reset-component' => 'App\\Http\\Livewire\\Main\\Auth\\Password\\ResetComponent',
