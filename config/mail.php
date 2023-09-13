@@ -36,11 +36,11 @@ return [
     'mailers' => [
         'smtp' => [
             'transport'    => 'smtp',
-            'host'         => '',
-            'port'         => '',
+            'host'         => 'smtp.gmail.com',
+            'port'         => '587',
             'encryption'   => 'tls',
-            'username'     => '',
-            'password'     => '',
+            'username'     => 'techtech10001@gmail.com',
+            'password'     => 'cjonkseohpnfkqac',
             'timeout'      => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
